@@ -1,11 +1,12 @@
-import React, { Provider } from 'react';
-import './App.css';
+import React from 'react';
+import { GlobalStyles } from './styles'
 
 import Sticky from './components/Sticky'
 
 function App() {
   return (
     <div className="App">
+      <GlobalStyles />
       <Sticky />
     </div>
   );
