@@ -1,13 +1,13 @@
 import React from 'react';
 import { GlobalStyles } from './styles'
 
-import Sticky from './components/Sticky'
+import Stickies from './components/Stickies'
 
 function App() {
   return (
     <div className="App">
       <GlobalStyles />
-      <Sticky />
+      <Stickies />
     </div>
   );
 }
